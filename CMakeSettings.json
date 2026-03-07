@@ -1,0 +1,46 @@
+{
+  "configurations": [
+    {
+      "name": "x64-debug",
+      "generator": "Ninja",
+      "configurationType": "Debug",
+      "inheritEnvironments": [ "msvc_x64_x64" ],
+      "buildRoot": "${projectDir}\\out\\build\\${name}",
+      "installRoot": "${projectDir}\\out\\install\\${name}",
+      "environments": [
+        {
+          "PATH": "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.19041.0\\x64;${env.PATH}",
+          "LIB": "C:\\Program Files (x86)\\Windows Kits\\10\\Lib\\10.0.26100.0\\um\\x64;C:\\Program Files (x86)\\Windows Kits\\10\\Lib\\10.0.26100.0\\ucrt\\x64;${env.LIB}",
+          "INCLUDE": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.26100.0\\um;C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.26100.0\\ucrt;C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.26100.0\\shared;${env.INCLUDE}"
+        }
+      ],
+      "variables": [
+        { "name": "CMAKE_C_COMPILER", "value": "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/cl.exe", "type": "FILEPATH" },
+        { "name": "CMAKE_CXX_COMPILER", "value": "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/cl.exe", "type": "FILEPATH" },
+        { "name": "CMAKE_VS_WINDOWS_TARGET_PLATFORM_VERSION", "value": "10.0.26100.0", "type": "STRING" },
+        { "name": "CMAKE_MT", "value": "C:/Program Files (x86)/Windows Kits/10/bin/10.0.19041.0/x64/mt.exe", "type": "FILEPATH" }
+      ]
+    },
+    {
+      "name": "x64-release",
+      "generator": "Ninja",
+      "configurationType": "Release",
+      "inheritEnvironments": [ "msvc_x64_x64" ],
+      "buildRoot": "${projectDir}\\out\\build\\${name}",
+      "installRoot": "${projectDir}\\out\\install\\${name}",
+      "environments": [
+        {
+          "PATH": "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.19041.0\\x64;${env.PATH}",
+          "LIB": "C:\\Program Files (x86)\\Windows Kits\\10\\Lib\\10.0.26100.0\\um\\x64;C:\\Program Files (x86)\\Windows Kits\\10\\Lib\\10.0.26100.0\\ucrt\\x64;${env.LIB}",
+          "INCLUDE": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.26100.0\\um;C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.26100.0\\ucrt;C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.26100.0\\shared;${env.INCLUDE}"
+        }
+      ],
+      "variables": [
+        { "name": "CMAKE_C_COMPILER", "value": "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/cl.exe", "type": "FILEPATH" },
+        { "name": "CMAKE_CXX_COMPILER", "value": "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/cl.exe", "type": "FILEPATH" },
+        { "name": "CMAKE_VS_WINDOWS_TARGET_PLATFORM_VERSION", "value": "10.0.26100.0", "type": "STRING" },
+        { "name": "CMAKE_MT", "value": "C:/Program Files (x86)/Windows Kits/10/bin/10.0.19041.0/x64/mt.exe", "type": "FILEPATH" }
+      ]
+    }
+  ]
+}

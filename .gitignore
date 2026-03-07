@@ -1,0 +1,13 @@
+.vs/
+out/
+build/
+bin/
+
+external/glfw/
+external/glad/
+external/
+
+*.obj
+*.exe
+*.pdb
+*.ilk
