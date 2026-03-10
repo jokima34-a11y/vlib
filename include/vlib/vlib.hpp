@@ -1,6 +1,8 @@
 #pragma once
 
-#include "vlib/types.hpp"
-#include "vlib/window.hpp"
-#include "vlib/event.hpp"
+#include "vlib/window/windowService.hpp"
+#include "vlib/events/eventService.hpp"
+#include "vlib/input/inputService.hpp"
+#include "vlib/core/constants.hpp"
+
 

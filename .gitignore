@@ -3,8 +3,6 @@ out/
 build/
 bin/
 
-external/glfw/
-external/glad/
 external/
 
 *.obj

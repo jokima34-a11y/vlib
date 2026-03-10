@@ -3,10 +3,9 @@
         {
             "name": "Win32",
             "includePath": [
-                "${workspaceFolder}/**",
                 "${workspaceFolder}/include",
                 "${workspaceFolder}/external",
-                "${workspaceFolder}"
+                "${workspaceFolder}/external/glfw/include"
             ],
             "defines": [
                 "_DEBUG",
